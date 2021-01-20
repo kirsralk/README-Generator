@@ -16,47 +16,58 @@ const promptUser = () =>
       name: 'description',
       message: 'Please provide a description of your Application:',
     },
-    // {
-    //   type: 'input',
-    //   name: 'TOC',
-    //   message: 'Enter section headings for your Table of Contents:',
-    // },
-    // {
-    //   type: 'input',
-    //   name: 'installation',
-    //   message: 'What are the installation instructions?',
-    // },
-    // {
-    //   type: 'input',
-    //   name: 'usage',
-    //   message: 'Enter any usage information users should know:',
-    // },
-    // {
-    //   type: 'input',
-    //   name: 'contribute',
-    //   message: 'Enter any contribution guidelines for users:',
-    // },
-    // {
-    //     type: 'input',
-    //     name: 'test',
-    //     message: 'Enter any test instructions for users:',
-    //   },
+    {
+      type: 'input',
+      name: 'install',
+      message: 'What are the installation instructions?',
+    },
+    {
+      type: 'input',
+      name: 'usage',
+      message: 'Enter any usage information users should know:',
+    },
+    {
+      type: 'input',
+      name: 'contribute',
+      message: 'Enter any contribution guidelines for users:',
+    },
+    {
+        type: 'input',
+        name: 'test',
+        message: 'Enter any test instructions for users:',
+      },
   ]);
 
 const generateREADME = (answers) => 
 `# ${answers.title}
 
 ## Table of Contents
-* [${answers.description}](#${answers.description})
+* [Description](#description)
+* [Installation](#installation})
+* [Usage](#usage)
+* [Contribution Guidelines](#contribution)
+* [Tests](#tests)
 
-##${answers.description}
+## Description
 
-`;
+${answers.description}
 
-    // ${answers.TOC}
-    // ${answers.usage}
-    // ${answers.contribute}
-    // ${answers.test}
+## Installation
+
+${answers.install}
+
+## Usage
+
+${answers.usage}
+
+## Contribution Guidelines
+
+${answers.contribute}
+
+## Tests
+
+${answers.test}`;
+
 
 
 
