@@ -46,8 +46,13 @@ const promptUser = () =>
         name: 'email',
         message: 'Please enter your email address:',
     },
-    
-    
+    {
+        type: 'list',
+        name: 'license',
+        message: 'Select a license type for your Application:',
+        choices: ['Apache', 'BSD', 'GNU', 'MIT', 'Mozilla'],
+    },
+  
   ]);
 
 const generateREADME = (answers) => 
