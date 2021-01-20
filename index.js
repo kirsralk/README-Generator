@@ -16,42 +16,51 @@ const promptUser = () =>
       name: 'description',
       message: 'Please provide a description of your Application:',
     },
-    {
-      type: 'input',
-      name: 'TOC',
-      message: 'Enter section headings for your Table of Contents:',
-    },
-    {
-      type: 'input',
-      name: 'installation',
-      message: 'What are the installation instructions?',
-    },
-    {
-      type: 'input',
-      name: 'usage',
-      message: 'Enter any usage information users should know:',
-    },
-    {
-      type: 'input',
-      name: 'contribute',
-      message: 'Enter any contribution guidelines for users:',
-    },
-    {
-        type: 'input',
-        name: 'test',
-        message: 'Enter any test instructions for users:',
-      },
+    // {
+    //   type: 'input',
+    //   name: 'TOC',
+    //   message: 'Enter section headings for your Table of Contents:',
+    // },
+    // {
+    //   type: 'input',
+    //   name: 'installation',
+    //   message: 'What are the installation instructions?',
+    // },
+    // {
+    //   type: 'input',
+    //   name: 'usage',
+    //   message: 'Enter any usage information users should know:',
+    // },
+    // {
+    //   type: 'input',
+    //   name: 'contribute',
+    //   message: 'Enter any contribution guidelines for users:',
+    // },
+    // {
+    //     type: 'input',
+    //     name: 'test',
+    //     message: 'Enter any test instructions for users:',
+    //   },
   ]);
 
-const generateREADME = (answers) =>
-`   ${answers.name}
-    ${answers.description}
-    ${answers.TOC}
-    ${answers.usage}
-    ${answers.contribute}
-    ${answers.test}`;
+const generateREADME = (answers) => 
+`# ${answers.title}
+
+## Table of Contents
+* [${answers.description}](#${answers.description})
+
+##${answers.description}
+
+`;
+
+    // ${answers.TOC}
+    // ${answers.usage}
+    // ${answers.contribute}
+    // ${answers.test}
+
+
 
 promptUser()
-  .then((answers) => writeFileAsync('README.md', generateREADME(answers)))
-  .then(() => console.log('Successfully wrote to README.md'))
+  .then((answers) => writeFileAsync('SampleREADME.md', generateREADME(answers)))
+  .then(() => console.log('Successfully wrote to Sample README.md'))
   .catch((err) => console.error(err));
