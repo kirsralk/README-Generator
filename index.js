@@ -36,6 +36,18 @@ const promptUser = () =>
         name: 'test',
         message: 'Enter any test instructions for users:',
       },
+    {
+        type: 'input',
+        name: 'github',
+        message: 'Please enter your GitHub username:',
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Please enter your email address:',
+    },
+    
+    
   ]);
 
 const generateREADME = (answers) => 
@@ -43,10 +55,11 @@ const generateREADME = (answers) =>
 
 ## Table of Contents
 * [Description](#description)
-* [Installation](#installation})
+* [Installation](#installation)
 * [Usage](#usage)
 * [Contribution Guidelines](#contribution)
 * [Tests](#tests)
+* [Questions](#questions)
 
 ## Description
 
@@ -66,7 +79,13 @@ ${answers.contribute}
 
 ## Tests
 
-${answers.test}`;
+${answers.test}
+
+## Questions
+
+Have questions about using this application? Reach the author on GitHub @${answers.github} or email ${answers.email}.
+
+`;
 
 
 
