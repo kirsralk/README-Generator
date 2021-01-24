@@ -8,9 +8,9 @@ Formatting of the generated ReadME file is optimized for Github using the [Maste
 
 Github repository includes "GeneratedREADME.md", a sample file created using this application.
 
-[Github Repository](https://github.com/kirsralk/README-Generator).
-[Tutorial on Screencastify](https://drive.google.com/file/d/1Zh9wdipebyt72QSPLXgv7CfgAmUnX3-B/view?usp=sharing).
-[Screenshot](https://github.com/kirsralk/README-Generator).
+*[Github Repository](https://github.com/kirsralk/README-Generator).
+*[Tutorial on Screencastify](https://drive.google.com/file/d/1Zh9wdipebyt72QSPLXgv7CfgAmUnX3-B/view?usp=sharing).
+*[Screenshot](https://github.com/kirsralk/README-Generator).
 
 ### User Story
 
