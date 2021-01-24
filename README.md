@@ -4,13 +4,13 @@
 
 README Generator is a CLI based app that allows users to quickly create a fully-formatted ReadME.md file ready for immediate use with any project.
 
-Formatting of the generated ReadME file is optimized for Github using the ![Mastering Markdown Guidelines](https://guides.github.com/features/mastering-markdown/).
+Formatting of the generated ReadME file is optimized for Github using the [Mastering Markdown Guidelines](https://guides.github.com/features/mastering-markdown/).
 
-Repository includes "GeneratedREADME.md", a file created using this application.
+Github repository includes "GeneratedREADME.md", a sample file created using this application.
 
-![Github Repository](https://github.com/kirsralk/README-Generator).
-![Tutorial on Screencastify](https://github.com/kirsralk/README-Generator).
-![Screenshot](https://github.com/kirsralk/README-Generator).
+[Github Repository](https://github.com/kirsralk/README-Generator).
+[Tutorial on Screencastify](https://drive.google.com/file/d/1Zh9wdipebyt72QSPLXgv7CfgAmUnX3-B/view?usp=sharing).
+[Screenshot](https://github.com/kirsralk/README-Generator).
 
 ### User Story
 
@@ -23,10 +23,11 @@ SO THAT I can quickly create a professional README for a new project
 ## Installation
 
 Note: This application runs on a Command Line Interface only (not in a browser).
+   * ![Installation Screenshot](./assets/install-screenshot.png)
 
 ### Step 1: Install Node
 
-Ensnure you have the Node.js runtime environment installed on your machine.  Helpful instructions to install Node are available ![here](https://coding-boot-camp.github.io/full-stack/nodejs/how-to-install-nodejs).
+Ensnure you have the Node.js runtime environment installed on your machine.  Helpful instructions to install Node are available [here](https://coding-boot-camp.github.io/full-stack/nodejs/how-to-install-nodejs).
 
 You can confirm if Node is properly installed on your machine by running the command "node -v" in your terminal, which will return the Node verison number you have installed. 
 
@@ -42,7 +43,7 @@ What are the steps required to install your project? Provide a step-by-step desc
 
 ### Step 3: Install Inquirer
 
-Install the additional NPM package Inquirer by running the command "npm install inquierer" in your terminal.
+Install the additional NPM package Inquirer by running the command "npm install inquirer" in your terminal.
 
 This will install additional node_module files and package-lock.json.
 
@@ -52,15 +53,14 @@ You are now ready to run the REAME Generator application!
 ## Usage 
 
 * Invoke the application by running the "index.js" file within the Node environment (run the command "node index.js" in your terminal).
-   * ![alt text](assets/images/screenshot.png)
 
 * Answer the prompts with text inputs or by selecting items from the list provided
-   * ![alt text](assets/images/screenshot.png)includ
+   * ![Tutorial Gif](./assets/tutorial.gif)
 
 * Once all of the prompts have been answered, index.js will execute the generateREADME() function thats creates a file called "GeneratedREADME.md".  This is your new, fully formatted README!
-   * ![alt text](assets/images/screenshot.png)
+   * Look for the response "Successfully wrote your new README to GeneratedREADME.md" in your terminal.
 
-For a video walkthrough of the app, check out the ![README Generator Tutorial](https://guides.github.com/features/mastering-markdown/).
+For a video walkthrough of the app, check out the [README Generator Tutorial](https://drive.google.com/file/d/1Zh9wdipebyt72QSPLXgv7CfgAmUnX3-B/view?usp=sharing).
 
 
 ## Credits

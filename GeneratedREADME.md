@@ -1,4 +1,4 @@
-# My Title
+# Application Title Goes Here
 
 ## Table of Contents
 * [Description](#description)
@@ -11,23 +11,23 @@
 
 ## Description
 
-Write any description here.
+Description of the app goes here.
 
 ## Installation
 
-Tell users how to install your app.
+Installation instructions go here.
 
 ## Usage
 
-Tell users any important usage instructions
+Usage information goes here.
 
 ## Contribution Guidelines
 
-Contributors
+Contribution guideline contents go here.
 
 ## Tests
 
-How to test
+Test test test!
 
 ## License
 
@@ -35,5 +35,5 @@ How to test
 
 ## Questions
 
-Have questions about using this application? Reach the author on GitHub @@kirsralk or email kirsiralko@gmail.com.
+Have questions about using this application? Reach the author on GitHub @kirsralk or email kirsiralko@gmail.com.
 
