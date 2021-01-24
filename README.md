@@ -10,7 +10,8 @@ Github repository includes "GeneratedREADME.md", a sample file created using thi
 
 * [Github Repository](https://github.com/kirsralk/README-Generator).
 * [Tutorial on Screencastify](https://drive.google.com/file/d/1Zh9wdipebyt72QSPLXgv7CfgAmUnX3-B/view?usp=sharing).
-* ![App Screenshot](./assets/app-screenshot.png).
+* App Screenshot:
+![App Screenshot](./assets/app-screenshot.png)
 
 ### User Story
 
@@ -23,7 +24,7 @@ SO THAT I can quickly create a professional README for a new project
 ## Installation
 
 Note: This application runs on a Command Line Interface only (not in a browser).
-   * ![Installation Screenshot](./assets/install-screenshot.png)
+![Installation Screenshot](./assets/install-screenshot.png)
 
 ### Step 1: Install Node
 
@@ -55,7 +56,7 @@ You are now ready to run the REAME Generator application!
 * Invoke the application by running the "index.js" file within the Node environment (run the command "node index.js" in your terminal).
 
 * Answer the prompts with text inputs or by selecting items from the list provided
-   * ![Tutorial Gif](./assets/tutorial.gif)
+![Tutorial Gif](./assets/tutorial.gif)
 
 * Once all of the prompts have been answered, index.js will execute the generateREADME() function thats creates a file called "GeneratedREADME.md".  This is your new, fully formatted README!
    * Look for the response "Successfully wrote your new README to GeneratedREADME.md" in your terminal.
