@@ -55,7 +55,7 @@ You are now ready to run the REAME Generator application!
    * ![alt text](assets/images/screenshot.png)
 
 * Answer the prompts with text inputs or by selecting items from the list provided
-   * ![alt text](assets/images/screenshot.png)
+   * ![alt text](assets/images/screenshot.png)includ
 
 * Once all of the prompts have been answered, index.js will execute the generateREADME() function thats creates a file called "GeneratedREADME.md".  This is your new, fully formatted README!
    * ![alt text](assets/images/screenshot.png)

@@ -122,5 +122,5 @@ Have questions about using this application? Reach the author on GitHub @${answe
 
 promptUser()
   .then((answers) => writeFileAsync('GeneratedREADME.md', generateREADME(answers)))
-  .then(() => console.log('Successfully wrote to Sample README.md'))
+  .then(() => console.log('Successfully wrote your new README to GeneratedREADME.md!'))
   .catch((err) => console.error(err));
